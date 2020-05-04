@@ -8,7 +8,6 @@ def F(w):
 ''' 
    Return the original text after decrypting it
 '''
-
 def decrypt_ciphers(block_cipher):    
     int1, int2, int3, int4 = unpack('<4I', block_cipher)    
     for idx in range(32):       
